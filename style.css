@@ -1,0 +1,188 @@
+.body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+  
+.header {
+  background-color: rgb(23, 31, 58);    
+  padding: 20px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.liste {   
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;   
+}
+
+a {
+  margin-right: 15px;  
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.bodyeins {
+  background-color: rgb(23, 31, 58);
+  padding: 15px; 
+  padding-inline-start: 40px; 
+  padding-inline-end: 40px;
+  display: flex;
+  flex-direction: row;  
+}
+
+.leftone {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin:10px;
+}
+
+.rightone {
+  padding: 10px;
+  background-color: rgb(71, 71, 71);
+  margin:10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.disisbe {
+  font-size: 14px;  
+  height: 50px;
+  max-width: 250px;  
+  color: white;
+  text-align: center;
+}
+
+.bodyzwo {
+  padding: 10px;  
+  background-color: rgb(255, 255, 255);   
+  padding: 7px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+}
+
+.midtitle {
+  font-size: 20; 
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;     
+}
+
+.vierkasten {
+  padding: 7px;
+  margin-bottom: 15px;    
+  display: flex;
+  flex-direction: row;
+}
+
+.eins {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.kasten {
+      
+  font-family: arial, Roboto, sans-serif;  
+  color: blue;
+  height: 40;
+  width: 40;
+  border-radius: 10px;
+  padding: 20px;  
+  border-style: solid;
+  border-color: rgb(0, 89, 255);
+  display: flex;  
+  justify-content: center;
+  align-items: center;  
+}
+
+.satz { 
+  font-weight: bold;
+  font-style: italic;  
+  margin: 3px;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+   
+}
+
+.bodydrei {
+  background-color: rgb(126, 126, 126);  
+  padding: 15px;
+  display: flex;
+  flex-direction: column;  
+}
+
+.quote {
+  font-style: italic;  
+}
+
+.quelle {
+  font-size: 13px;  
+  text-align: right; 
+  display: flex;
+}
+
+.bodyvier {
+  background-color: rgb(255, 255, 255);
+  padding: 15px;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meldung { 
+  background-color: rgb(31, 78, 207); 
+  border-radius: 10px; 
+}
+
+.worter {
+  margin-top:10px;
+  margin-left: 10px;
+  margin-right: 10px;  
+  display: flex;
+}
+
+.keks { 
+  margin-bottom:10px;
+  margin-left: 10px;
+  margin-right: 10px;  
+}
+
+button {
+  margin: 10px;  
+}
+
+.footer {
+  background-color: rgb(23, 31, 58);
+  padding: 10px;
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  color: white;
+  border-radius: 10px;
+  border-color:rgb(255, 255, 255);
+  background: rgb(65, 137, 245);
+  font-size: 14px;
+  font-weight: bold;
+  height: 30px;
+  width: 80px;
+}
